@@ -14,15 +14,16 @@
 <tw-storydata name="The Ballad of Tam Lin" startnode="1" creator="Twine" creator-version="2.3.9" ifid="59F151A5-DFB6-4188-A4AB-61D2767A5815" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Line 1 - 39A" tags="" position="405,171" size="100,100">O I forbid you, maidens a&#39;,
 That wear gowd on your hair,
 To come or gae by Carterhaugh,
-[[For young Tam Lin is there.]]</tw-passagedata><tw-passagedata pid="2" name="For young Tam Lin is there." tags="" position="405,321" size="100,100">There&#39;s nane that gaes by Carterhaugh
+[[For young Tam Lin is there.]]
+(set: $path1 to &#39;false&#39;)(set: $path2 to &#39;false&#39;)</tw-passagedata><tw-passagedata pid="2" name="For young Tam Lin is there." tags="" position="405,321" size="100,100">There&#39;s nane that gaes by Carterhaugh
 But they leave him [[a wad]],
-Either their rings, or [[green mantles]],
-Or else their [[maidenhead]].</tw-passagedata><tw-passagedata pid="3" name="green mantles" tags="" position="335,454" size="100,100">Janet has kilted her green kirtle
+(if: $path1 is &#39;true&#39;)[Either their rings, or [[green mantles]]]
+(if: $path2 is &#39;true&#39;)[Or else their [[maidenhead]].]</tw-passagedata><tw-passagedata pid="3" name="green mantles" tags="" position="598,564" size="100,100">Janet has kilted her green kirtle
 A little aboon her knee,
 And she has broded her yellow hair
 A little aboon her bree,
 And she&#39;s awa to Carterhaugh
-[[As fast as she can hie.]]</tw-passagedata><tw-passagedata pid="4" name="maidenhead" tags="" position="520,320" size="100,100">Now gold rings ye may buy, maidens,
+[[As fast as she can hie.-&gt;For young Tam Lin is there.]](set: $path2 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="4" name="maidenhead" tags="" position="284,471" size="100,100">Now gold rings ye may buy, maidens,
 Green mantles ye may spin;
 But, if you lose your maidenhead,
 you&#39;ll ne&#39;er get that again.
@@ -30,7 +31,7 @@ you&#39;ll ne&#39;er get that again.
 But up spoke her, fair Janet,
 the fairest of all her kin;
 [[I&#39;ll come and go to Carterhaugh,
-and ask no leave of him-&gt;green mantles]].</tw-passagedata><tw-passagedata pid="5" name="a wad" tags="" position="473,455" size="100,100">&#39;Go saddle for me the black,&#39; says Janet,
+and ask no leave of him-&gt;As fast as she can hie.]].</tw-passagedata><tw-passagedata pid="5" name="a wad" tags="" position="609,438" size="100,100">&#39;Go saddle for me the black,&#39; says Janet,
 Go saddle for me the brown,
 And I &#39;ll away to Carterhaugh,
 And flower mysell the gown.
@@ -38,7 +39,7 @@ And flower mysell the gown.
 Go saddle for me the brown,&#39; says Janet,
 &#39;Go saddle for me the black,
 And I&#39;ll away to Carterhaugh,
-[[And flower mysel a hat.&#39;-&gt;As fast as she can hie.]]</tw-passagedata><tw-passagedata pid="6" name="As fast as she can hie." tags="" position="335,604" size="100,100">She had na pu&#39;d a double rose,
+[[And flower mysel a hat.&#39;-&gt;For young Tam Lin is there.]](set: $path1 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="6" name="As fast as she can hie." tags="" position="335,604" size="100,100">She had na pu&#39;d a double rose,
 A rose but only twa,
 Till upon then started young Tam Lin,
 Says, Lady, thou&#39;s pu nae mae.
@@ -46,7 +47,8 @@ Says, Lady, thou&#39;s pu nae mae.
 Why pu&#39;s thou the rose, Janet,
 And why breaks thou the wand?
 Or why comes thou to Carterhaugh
-[[Withoutten my command?]]</tw-passagedata><tw-passagedata pid="7" name="Withoutten my command?" tags="" position="335,754" size="100,100">Carterhaugh, [[it is my own,]]
+[[Withoutten my command?]]
+&lt;img src=&quot;https://carlaoberst.github.io/InteractiveMedia323/project1/tamlin images/a rose but only two.jpg&quot; alt=&quot;illustration of Janet plucking a double rose&quot;&gt;</tw-passagedata><tw-passagedata pid="7" name="Withoutten my command?" tags="" position="335,754" size="100,100">Carterhaugh, [[it is my own,]]
 My daddy gave it me,
 I&#39;ll come and gang by Carterhaugh,
 And ask [[nae leave at thee.]]</tw-passagedata><tw-passagedata pid="8" name="it is my own," tags="" position="260,904" size="100,100">Janet has kilted her green kirtle
@@ -188,7 +190,8 @@ But, an eerie tale to tell,
 Ay at the end of seven years,
 We pay a tiend to hell,
 I am sae fair and fu o flesh,
-[[I&#39;m feard it be mysel.]]</tw-passagedata><tw-passagedata pid="24" name="Miles Cross" tags="" position="289,2138" size="100,100">&quot;But how shall I thee ken, Tam Lin,
+[[I&#39;m feard it be mysel.]]
+&lt;img src=&quot;https://carlaoberst.github.io/InteractiveMedia323/project1/tamlin images/tam-lin.jpg&quot; alt=&quot;procession of faeries&quot;&gt;</tw-passagedata><tw-passagedata pid="24" name="Miles Cross" tags="" position="289,2138" size="100,100">&quot;But how shall I thee ken, Tam Lin,
 Or how my true-love know,
 Amang sa mony unco knights,
 [[The like I never saw?]]&quot;</tw-passagedata><tw-passagedata pid="25" name="The like I never saw?" tags="" position="166,2138" size="100,100">&quot;O first let pass the black, lady,
@@ -223,7 +226,8 @@ O throw me in with speed.
 &quot;And then I&#39;ll be your ain true-love,
 I&#39;ll turn a naked knight,
 Then cover me wi your green mantle,
-[[And hide me out o sight.]]&quot;</tw-passagedata><tw-passagedata pid="30" name="And hide me out o sight." tags="" position="526,2434" size="100,100">Gloomy, gloomy was the night,
+[[And hide me out o sight.]]&quot;
+&lt;img src=&quot;https://carlaoberst.github.io/InteractiveMedia323/project1/tamlin images/erica-leveque-tam-lin.jpg&quot; alt=&quot;Janet holding on to Tam Lin as he transforms&quot;&gt;</tw-passagedata><tw-passagedata pid="30" name="And hide me out o sight." tags="" position="526,2434" size="100,100">Gloomy, gloomy was the night,
 And eerie was the way,
 As fair Jenny in her green mantle
 To Miles Cross she did gae.
@@ -239,7 +243,8 @@ And pu&#39;d the rider down.
 Sae weel she minded what he did say,
 And young Tam Lin did win,
 Syne covered him wi her green mantle,
-[[As blythe&#39;s a bird in spring]]</tw-passagedata><tw-passagedata pid="32" name="As blythe&#39;s a bird in spring" tags="" position="275,2440" size="100,100">Out then spak the Queen o Fairies,
+[[As blythe&#39;s a bird in spring]]
+&lt;img src=&quot;https://carlaoberst.github.io/InteractiveMedia323/project1/tamlin images/charles vess.jpg&quot; alt=&quot;a misty illustration of Janet pulling Tam Lin from his white horse&quot;&gt;</tw-passagedata><tw-passagedata pid="32" name="As blythe&#39;s a bird in spring" tags="" position="275,2440" size="100,100">Out then spak the Queen o Fairies,
 Out of a bush o broom,
 &quot;Them that has gotten young Tam Lin
 Has gotten a stately-groom.&quot;
