@@ -11,19 +11,20 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="The Ballad of Tam Lin" startnode="1" creator="Twine" creator-version="2.3.9" ifid="59F151A5-DFB6-4188-A4AB-61D2767A5815" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Line 1 - 39A" tags="" position="405,171" size="100,100">O I forbid you, maidens a&#39;,
+<tw-storydata name="The Ballad of Tam Lin" startnode="1" creator="Twine" creator-version="2.3.9" ifid="59F151A5-DFB6-4188-A4AB-61D2767A5815" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.visited /* all visited links */
+{ color: #009e00; }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Line 1 - 39A" tags="" position="400,199" size="100,100">O I forbid you, maidens a&#39;,
 That wear gowd on your hair,
 To come or gae by Carterhaugh,
 [[For young Tam Lin is there.]]
-(set: $path1 to &#39;false&#39;)(set: $path2 to &#39;false&#39;)</tw-passagedata><tw-passagedata pid="2" name="For young Tam Lin is there." tags="" position="405,321" size="100,100">There&#39;s nane that gaes by Carterhaugh
+(set: $path1 to &#39;false&#39;)(set: $path2 to &#39;false&#39;)(set: $path3 to &#39;false&#39;)</tw-passagedata><tw-passagedata pid="2" name="For young Tam Lin is there." tags="" position="400,325" size="100,100">There&#39;s nane that gaes by Carterhaugh
 But they leave him [[a wad]],
 (if: $path1 is &#39;true&#39;)[Either their rings, or [[green mantles]]]
-(if: $path2 is &#39;true&#39;)[Or else their [[maidenhead]].]</tw-passagedata><tw-passagedata pid="3" name="green mantles" tags="" position="598,564" size="100,100">Janet has kilted her green kirtle
+(if: $path2 is &#39;true&#39;)[Or else their [[maidenhead]].]</tw-passagedata><tw-passagedata pid="3" name="green mantles" tags="" position="549,400" size="100,100">Janet has kilted her green kirtle
 A little aboon her knee,
 And she has broded her yellow hair
 A little aboon her bree,
 And she&#39;s awa to Carterhaugh
-[[As fast as she can hie.-&gt;For young Tam Lin is there.]](set: $path2 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="4" name="maidenhead" tags="" position="284,471" size="100,100">Now gold rings ye may buy, maidens,
+[[As fast as she can hie.-&gt;For young Tam Lin is there.]](set: $path2 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="4" name="maidenhead" tags="" position="400,449" size="100,100">Now gold rings ye may buy, maidens,
 Green mantles ye may spin;
 But, if you lose your maidenhead,
 you&#39;ll ne&#39;er get that again.
@@ -31,7 +32,7 @@ you&#39;ll ne&#39;er get that again.
 But up spoke her, fair Janet,
 the fairest of all her kin;
 [[I&#39;ll come and go to Carterhaugh,
-and ask no leave of him-&gt;As fast as she can hie.]].</tw-passagedata><tw-passagedata pid="5" name="a wad" tags="" position="609,438" size="100,100">&#39;Go saddle for me the black,&#39; says Janet,
+and ask no leave of him-&gt;As fast as she can hie.]].</tw-passagedata><tw-passagedata pid="5" name="a wad" tags="" position="546,274" size="100,100">&#39;Go saddle for me the black,&#39; says Janet,
 Go saddle for me the brown,
 And I &#39;ll away to Carterhaugh,
 And flower mysell the gown.
@@ -39,7 +40,7 @@ And flower mysell the gown.
 Go saddle for me the brown,&#39; says Janet,
 &#39;Go saddle for me the black,
 And I&#39;ll away to Carterhaugh,
-[[And flower mysel a hat.&#39;-&gt;For young Tam Lin is there.]](set: $path1 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="6" name="As fast as she can hie." tags="" position="335,604" size="100,100">She had na pu&#39;d a double rose,
+[[And flower mysel a hat.&#39;-&gt;For young Tam Lin is there.]](set: $path1 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="6" name="As fast as she can hie." tags="" position="399,571" size="100,100">She had na pu&#39;d a double rose,
 A rose but only twa,
 Till upon then started young Tam Lin,
 Says, Lady, thou&#39;s pu nae mae.
@@ -48,15 +49,16 @@ Why pu&#39;s thou the rose, Janet,
 And why breaks thou the wand?
 Or why comes thou to Carterhaugh
 [[Withoutten my command?]]
-&lt;img src=&quot;https://carlaoberst.github.io/InteractiveMedia323/project1/tamlin images/a rose but only two.jpg&quot; alt=&quot;illustration of Janet plucking a double rose&quot;&gt;</tw-passagedata><tw-passagedata pid="7" name="Withoutten my command?" tags="" position="335,754" size="100,100">Carterhaugh, [[it is my own,]]
+&lt;img src=&quot;https://carlaoberst.github.io/InteractiveMedia323/project1/tamlin images/a rose but only two.jpg&quot; alt=&quot;illustration of Janet plucking a double rose&quot;&gt;</tw-passagedata><tw-passagedata pid="7" name="Withoutten my command?" tags="" position="399,701" size="100,100">Carterhaugh, it is my own,
 My daddy gave it me,
-I&#39;ll come and gang by Carterhaugh,
-And ask [[nae leave at thee.]]</tw-passagedata><tw-passagedata pid="8" name="it is my own," tags="" position="260,904" size="100,100">Janet has kilted her green kirtle
+[[I&#39;ll come and gang by Carterhaugh,|it is my own,]]
+(if: $path3 is &#39;true&#39;)[And ask [[nae leave at thee.]]]</tw-passagedata><tw-passagedata pid="8" name="it is my own," tags="" position="597,700" size="100,100">Janet has kilted her green kirtle
 A little aboon her knee,
 And she has broded her yellow hair
 A little aboon her bree,
 And she is to her father&#39;s ha,
-[[As fast as she can hie-&gt;Four and Twenty Ladies]].</tw-passagedata><tw-passagedata pid="9" name="nae leave at thee." tags="" position="410,904" size="100,100">He&#39;s taen her by the milk-white hand,
+[[As fast as she can hie-&gt;Withoutten my command?]].
+(set: $path3 to &#39;true&#39;)</tw-passagedata><tw-passagedata pid="9" name="nae leave at thee." tags="" position="401,818" size="100,100">He&#39;s taen her by the milk-white hand,
 Among the leaves sae green,
 And what they did I cannot tell.
 The green leaves were between.
@@ -74,7 +76,7 @@ Or been with some leman.
 She didna comb her yellow hair
 Nor make meikle o her head,
 And ilka thing that lady took
-[[Was like to be her deid.-&gt;Four and Twenty Ladies]]</tw-passagedata><tw-passagedata pid="10" name="Four and Twenty Ladies" tags="" position="330,1021" size="100,100">Four and twenty ladies fair
+[[Was like to be her deid.-&gt;Four and Twenty Ladies]]</tw-passagedata><tw-passagedata pid="10" name="Four and Twenty Ladies" tags="" position="400,942" size="100,100">Four and twenty ladies fair
 Were playing at the ba,
 And out then came the fair Janet,
 The flower among them a&#39;.
@@ -82,7 +84,7 @@ The flower among them a&#39;.
 Four and twenty ladies fair
 Were playing at the chess,
 And out then came the fair Janet,
-[[As green as onie glass.]]</tw-passagedata><tw-passagedata pid="11" name="As green as onie glass." tags="" position="330,1171" size="100,100">Out then spake an auld grey knight,
+[[As green as onie glass.]]</tw-passagedata><tw-passagedata pid="11" name="As green as onie glass." tags="" position="399,1066" size="100,100">Out then spake an auld grey knight,
 Lay oer the castle wa,
 And says, Alas, fair Janet, for thee,
 But we&#39;ll be blamed a&#39;.
@@ -90,10 +92,10 @@ But we&#39;ll be blamed a&#39;.
 &quot;Haud your tongue, ye auld fac&#39;d knight,
 Some ill death may ye die!
 [[Father]] my bairn on whom I will,
-I&#39;ll father [[none on thee.&quot;]]</tw-passagedata><tw-passagedata pid="12" name="Father" tags="" position="255,1321" size="100,100">Out then spak her father dear,
+I&#39;ll father [[none on thee.&quot;]]</tw-passagedata><tw-passagedata pid="12" name="Father" tags="" position="272,1138" size="100,100">Out then spak her father dear,
 And he spak meek and mild,
 &quot;And ever alas, sweet Janet,&quot; he says,
-[[&quot;I think thou gaest wi child.&quot;]]</tw-passagedata><tw-passagedata pid="13" name="none on thee.&quot;" tags="" position="405,1321" size="100,100">Up starts Lady Janet&#39;s sister,
+[[&quot;I think thou gaest wi child.&quot;]]</tw-passagedata><tw-passagedata pid="13" name="none on thee.&quot;" tags="" position="521,1144" size="100,100">Up starts Lady Janet&#39;s sister,
 An angry woman was she:
 If there ever was a woman wi child.
 Janet, you are wi!&#39;
@@ -101,7 +103,7 @@ Janet, you are wi!&#39;
 &quot;There grows a flower in Carterhaugh,
 it grows on gravel greay,
 It cold destroy the boney young bern
-[[That ye got in your pley.&#39;-&gt;Return 2]]</tw-passagedata><tw-passagedata pid="14" name="&quot;I think thou gaest wi child.&quot;" tags="" position="255,1471" size="100,100">&quot;If that I gae wi child, father,
+[[That ye got in your pley.&#39;-&gt;Return 2]]</tw-passagedata><tw-passagedata pid="14" name="&quot;I think thou gaest wi child.&quot;" tags="" position="270,1267" size="100,100">&quot;If that I gae wi child, father,
 Mysel maun bear the blame,
 There&#39;s neer a laird about your ha,
 Shall get the bairn&#39;s name.
@@ -114,7 +116,7 @@ For nae lord that ye hae.
 &quot;The steed that my true love rides on
 Is lighter than the wind,
 Wi siller he is shod before,
-[[Wi burning gowd behind.&quot;-&gt;Return 1]]</tw-passagedata><tw-passagedata pid="15" name="Return 1" tags="" position="258,1587" size="100,100">Janet has kilted her green kirtle
+[[Wi burning gowd behind.&quot;-&gt;Return 1]]</tw-passagedata><tw-passagedata pid="15" name="Return 1" tags="" position="296,1399" size="100,100">Janet has kilted her green kirtle
 A little aboon her knee,
 And she has broded her yellow hair
 A little aboon her bree,
@@ -124,12 +126,12 @@ As fast as she can hie.
 When she came to Carterhaugh,
 Tam Lin was at the well,
 And there she fand his steed standing,
-[[But away was himsel.-&gt;Double Rose]]</tw-passagedata><tw-passagedata pid="16" name="Return 2" tags="" position="434,1488" size="100,100">Janet has kilted her green kirtle
+[[But away was himsel.-&gt;Double Rose]]</tw-passagedata><tw-passagedata pid="16" name="Return 2" tags="" position="500,1267" size="100,100">Janet has kilted her green kirtle
 A little aboon her knee,
 And she has broded her yellow hair
 A little aboon her bree,
 And she&#39;s awa to Carterhaugh
-[[As fast as she can hie.-&gt;Herb]]</tw-passagedata><tw-passagedata pid="17" name="Double Rose" tags="" position="268,1729" size="100,100">She had na pu&#39;d a double rose,
+[[As fast as she can hie.-&gt;Herb]]</tw-passagedata><tw-passagedata pid="17" name="Double Rose" tags="" position="294,1525" size="100,100">She had na pu&#39;d a double rose,
 A rose but only twa,
 Till up then started young Tam Lin,
 Says, Lady, thou pu&#39;s nae mae.
@@ -137,7 +139,7 @@ Says, Lady, thou pu&#39;s nae mae.
 &quot;Why pu&#39;s thou the rose, Janet,
 Amang the groves sae green,
 And a&#39; to kill the bonny babe
-[[That we gat us between?&quot;|take responsibility]]</tw-passagedata><tw-passagedata pid="18" name="Herb" tags="" position="434,1604" size="100,100">She scarcely pulled an herb, an herb,
+[[That we gat us between?&quot;|take responsibility]]</tw-passagedata><tw-passagedata pid="18" name="Herb" tags="" position="499,1401" size="100,100">She scarcely pulled an herb, an herb,
 She scarse pulled two or three,
 when up starts there Tam Lin
 upon this Lady Janet&#39;s knee.
@@ -145,10 +147,10 @@ upon this Lady Janet&#39;s knee.
 How dare ye pull a rose? &#39; he says,
 How dare ye break the tree?
 How dare ye pull this herb,&#39; he says,
-[[To scathe my babe away?|take responsibility]]</tw-passagedata><tw-passagedata pid="19" name="take responsibility" tags="" position="434,1745" size="100,100">&quot;O tell me, [[tell me]], Tam Lin,&quot; she says,
+[[To scathe my babe away?|take responsibility]]</tw-passagedata><tw-passagedata pid="19" name="take responsibility" tags="" position="399,1638" size="100,100">&quot;O tell me, [[tell me]], Tam Lin,&quot; she says,
 &quot;For&#39;s sake that died on tree,
 If eer ye was in holy chapel,
-Or [[christendom]] did see?&quot;</tw-passagedata><tw-passagedata pid="20" name="tell me" tags="" position="434,1895" size="100,100">The truth I&#39;ll tell to thee, Janet,
+Or [[christendom]] did see?&quot;</tw-passagedata><tw-passagedata pid="20" name="tell me" tags="" position="298,1800" size="100,100">The truth I&#39;ll tell to thee, Janet,
 A word I winna lie ;
 Aknight me got, and a lady me bore
 As well as they did thee.
@@ -166,7 +168,7 @@ And keep him companie.
 There came a wind out of the north,
 A sharp wind and a snell,
 And a deep sleep came over me,
-[[And frae my horse I fell.|That frae my horse I fell,]]</tw-passagedata><tw-passagedata pid="21" name="christendom" tags="" position="554,1895" size="100,100">&quot;Roxbrugh he was my grandfather,
+[[And frae my horse I fell.|That frae my horse I fell,]]</tw-passagedata><tw-passagedata pid="21" name="christendom" tags="" position="503,1803" size="100,100">&quot;Roxbrugh he was my grandfather,
 Took me with him to bide
 And ance it fell upon a day
 That wae did me betide.
@@ -174,7 +176,7 @@ That wae did me betide.
 &quot;And ance it fell upon a day
 A cauld day and a snell,
 When we were frae the hunting come,
-[[That frae my horse I fell,]]</tw-passagedata><tw-passagedata pid="22" name="I&#39;m feard it be mysel." tags="" position="450,2144" size="100,100">&quot;But the night is Halloween, lady,
+[[That frae my horse I fell,]]</tw-passagedata><tw-passagedata pid="22" name="I&#39;m feard it be mysel." tags="" position="408,2062" size="100,100">&quot;But the night is Halloween, lady,
 The morn is Hallowday,
 Then win me, win me, an ye will,
 For weel I wat ye may.
@@ -182,7 +184,7 @@ For weel I wat ye may.
 &quot;Just at the mirk and midnight hour
 The fairy folk will ride,
 And they that wad their true-love win,
-At [[Miles Cross]] they maun bide.&quot;</tw-passagedata><tw-passagedata pid="23" name="That frae my horse I fell," tags="" position="486,2020" size="100,100">The Queen o&#39; Fairies she caught me,
+At [[Miles Cross]] they maun bide.&quot;</tw-passagedata><tw-passagedata pid="23" name="That frae my horse I fell," tags="" position="401,1932" size="100,100">The Queen o&#39; Fairies she caught me,
 In yon green hill do dwell.
 &quot;And pleasant is the fairy land,
 But, an eerie tale to tell,
