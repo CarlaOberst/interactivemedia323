@@ -1,11 +1,26 @@
-body{
+body{}
 
-}
-
-#searchbar{
+.navigationbar{}
+#dark{
 	background-color: #2B253A;
-	position: absolute;
-	width: 100%;
-	height: 40px;
-	display: inline-block;
 }
+#light{
+	background-color: #5F4F66;
+}
+#logo{
+	background-color: #927E90;
+}
+.search{}
+.menu{}
+.buttons{
+	background-color: #2B253A;
+}
+.nextpage
+.skippage
+.image
+.image2
+.blue
+.u
+.results
+.cardback
+.cardart
