@@ -3,15 +3,47 @@ body{}
 .navigationbar{}
 #dark{
 	background-color: #2B253A;
+	width: 100%;
+	height: 46px;
+	display: block;
+	z-index: -1;
+	position: relative;
 }
 #light{
 	background-color: #5F4F66;
+	width: 100%;
+	height: 46px;
+	display: block;
 }
 #logo{
 	background-color: #927E90;
+	height: 26px;
+	width: 26px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 290px;
+	float: left;
 }
-.search{}
-.menu{}
+
+.search{
+	color: white;
+	position: relative;
+	margin-left:330px;
+	margin-top: 18px;
+	z-index: 1;
+	display: inline-block;
+}
+
+.menu{
+	color: white;
+	position: relative;
+	margin-left: 350px;
+	margin-top: 10px;
+	display: inline-block;
+	z-index: 1;
+}
 .buttons{
 	background-color: #2B253A;
 }
