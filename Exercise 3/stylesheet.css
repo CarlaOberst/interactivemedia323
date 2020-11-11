@@ -1,6 +1,9 @@
-body{}
+body{
+	font-size: 20px;
+}
 
 .navigationbar{}
+
 #dark{
 	background-color: #2B253A;
 	width: 100%;
@@ -9,12 +12,14 @@ body{}
 	z-index: -1;
 	position: relative;
 }
+
 #light{
 	background-color: #5F4F66;
 	width: 100%;
 	height: 46px;
 	display: block;
 }
+
 #logo{
 	background-color: #927E90;
 	height: 26px;
@@ -25,6 +30,7 @@ body{}
 	margin-top: 10px;
 	margin-left: 290px;
 	float: left;
+	border: 2px solid #C5BFC7;
 }
 
 .search{
@@ -39,20 +45,76 @@ body{}
 .menu{
 	color: white;
 	position: relative;
-	margin-left: 350px;
-	margin-top: 10px;
+	float: right;
+	margin-right: 250px;
+	margin-top: 18px;
 	display: inline-block;
 	z-index: 1;
 }
-.buttons{
-	background-color: #2B253A;
+
+.content{
+	color: white;
+	text-align: center;
 }
-.nextpage
-.skippage
-.image
-.image2
-.blue
-.u
-.results
-.cardback
-.cardart
+
+.buttons{
+	float: right;
+}
+
+.nextpage{
+	height: 35px;
+	width: 148px;
+	border: 1px solid #C5BFC7;
+	border-radius: 3px;
+	z-index: 1;
+	background-color: #6D5F74;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.skippage{
+	height: 35px;
+	width: 35px;
+	z-index: 1;
+	border: 1px solid #C5BFC7;
+	border-radius: 3px;
+	background-color: #6D5F74;
+	display: inline-block;
+}
+
+.image{
+	background-color: #EDECE7;
+	height: 417px;
+	width: 295px;
+	display: inline-block;
+	margin: 5px;
+	border: 2px solid black;
+	border-radius: 7px;
+}
+
+.image2{
+	background-color: #836D56;
+	height: 185px;
+	width: 250px;
+	position: absolute;
+	margin-left: 22px;
+	margin-top: 30px;
+}
+
+.blue{
+	background-color: #A3D8ED;
+}
+
+.u{
+	background-color: #3DABDD;
+}
+
+.results{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards{
+	margin: 50px;
+}
