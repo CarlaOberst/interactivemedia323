@@ -1,0 +1,35 @@
+.container{
+	display: inline-block;
+	margin: 10px;
+}
+
+.block{
+	height: 1px;
+	width: 100px;
+	padding: 1px;
+	border: 20px solid black;
+	display: inline-block;
+}
+
+.dotted{
+	border: 15px dashed darkgray;
+	display: block;
+	padding: 15px;
+}
+
+p{
+	padding: 3px;
+	margin: 3px;
+	border: 15px dotted gray;
+	width: 100px;
+}
+
+.spacer{
+	display: inline-block;
+	margin: 2px;
+	position: relative;
+}
+
+.outside{
+	padding: 20px;
+}

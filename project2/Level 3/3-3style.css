@@ -1,0 +1,40 @@
+.strong{
+	border: 7px inset black;
+	padding: 5px;
+	width:90px;
+	display: inline-block;
+	float: left;
+	position: absolute;
+}
+.emphasis{
+	
+	padding-left: 190px;
+	padding-top: 0 auto;
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	margin-top: 400px;
+	float: right;
+	border: 3px outset black;
+
+}
+.small{
+	border: 1px solid black;
+	padding: 20px;
+	height: auto;
+	width: 100px;
+	position: absolute;
+}
+.large{
+	border: 10px solid black;
+	padding: 50px;
+	width: 300px;
+	margin-left: 98px;
+	margin-top: 50px;
+	padding-bottom: 175px;
+	display: inline-block;
+	position: absolute;
+}
+.container{
+	width: 740px;
+}

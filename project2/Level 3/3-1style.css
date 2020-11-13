@@ -1,0 +1,33 @@
+.line1{
+	border:3px dotted green;
+	width: 80px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+}
+
+.line2{
+	border:3px dotted teal;
+	width: 160px;
+	display: inline-block;
+	height: auto;
+	margin-top: 200px;
+	padding: 10px;
+}
+
+.line3{
+	border:3px dotted blue;
+	display: inline-block;
+	width: 80px;
+	height: auto;
+	margin-top: 250px;
+	margin-left: 20px;
+	padding: 10px;
+	float: right;
+}
+
+.container{
+	width: 460px;
+	height: auto;
+}

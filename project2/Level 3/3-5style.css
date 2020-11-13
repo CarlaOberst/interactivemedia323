@@ -1,0 +1,36 @@
+#here{
+	width: 110px;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+#weare{
+	width: 15px;
+	border-top:10px solid black;
+	padding-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	left: 300px;
+	position: relative;
+
+}
+
+.block{
+
+}
+
+#energy, #mass, #life{
+	border: 2px dashed black;
+	display: inline-block;
+	padding: 20px;
+}
+
+#energy{
+	padding: 20px;
+	position: relative;
+}
+
+.aspects{
+	margin-left: 400px;
+}

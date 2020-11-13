@@ -1,0 +1,40 @@
+.container{
+	margin: 5%;
+	border: 7px solid sienna;
+	padding: 8%;
+	border-radius: 5%;
+
+}
+
+.horizontal{
+	width: auto;
+	height: 21%;
+	border: 5px solid darkgreen;	
+	margin: 5px;
+	display: block;
+	padding: 2px;
+	position: relative;
+	border-radius: 6%;
+
+}
+
+.invisible{
+	border: 5px solid white;
+}
+
+.bright{
+	border: 5px dotted springgreen;
+}
+
+.vertical{
+	width: 23%;
+	height: 925px;
+	border: 5px solid green;
+	display: inline-block;
+}
+
+p{
+	float: left;
+	margin-left: 25%;
+	margin-top: 25%;
+}
