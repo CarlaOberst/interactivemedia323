@@ -29,6 +29,11 @@
 #energy{
 	padding: 20px;
 	position: relative;
+	display: inline;
+}
+
+#mass{
+	position: relative;
 }
 
 .aspects{
