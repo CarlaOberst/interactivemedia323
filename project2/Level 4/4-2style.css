@@ -82,4 +82,5 @@ p{
 
 .container{
 	margin: 50px;
+	display: inline-block;
 }
