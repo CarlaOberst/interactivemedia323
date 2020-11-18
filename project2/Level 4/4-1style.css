@@ -1,0 +1,42 @@
+.containter{
+	padding: 10px;
+}
+
+.start{
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-size: 20pt;
+	border: 5px solid black;
+	padding: 50px;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left:90px;
+	margin: 10px;
+}
+
+.shaping{
+	font-family: sans-serif;
+	font-style: italic;
+	line-height: 30px;
+	font-size: 10pt;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+}
+
+.consider{
+	font-family: sans-serif;
+	text-transform: lowercase;
+	font-size: 20pt;
+	position: relative;
+	left: 300px;
+	display: block;
+}
+
+.change{
+	line-height: 80px;
+	font-size: 15pt;
+	letter-spacing: 4px;
+	display: inline-block;
+}

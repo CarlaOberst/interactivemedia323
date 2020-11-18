@@ -1,6 +1,7 @@
 .navigation{
     float: right;
     font-family: sans-serif;
+    display: inline-block;
 }
 
 a:link, a:visited {

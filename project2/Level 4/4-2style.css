@@ -1,0 +1,85 @@
+#line1{
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-size: 10px;
+	top: 50px;
+	display: relative;
+}
+
+#line2{
+	text-transform: capitalize;
+	letter-spacing: 6px;
+	font-size: 11px;
+	display: relative;
+}
+
+#line3{
+	letter-spacing: 6px;
+	font-size: 12px;
+}
+
+#line4{
+	letter-spacing: 5px;
+	font-size: 16px;
+	font-style: italic;
+}
+
+#line5{
+	letter-spacing: 4px
+	font-size: 20px;
+}
+
+#line6{
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+#line7{
+	letter-spacing: 7px;
+	font-size: 10px;
+}
+
+#line8{
+	text-transform: capitalize;
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 22px;
+}
+
+#line9{
+	letter-spacing: 3px;
+	text-transform: lowercase;
+	font-size: 24px;
+}
+
+#line10{
+	letter-spacing: 6px;
+	font-size: 26px;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+
+#line11{
+	letter-spacing: 9px;
+	font-size: 28px;
+	font-style: italic;
+}
+
+#line12{
+	letter-spacing: 5px;
+	font-size: 10px;
+}
+
+body{
+	text-align: center;
+	font-family: garamond;
+}
+
+p{
+	display: block;
+}
+
+.container{
+	margin: 50px;
+}

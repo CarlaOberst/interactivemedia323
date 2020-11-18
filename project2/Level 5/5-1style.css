@@ -1,0 +1,87 @@
+.bluebox{
+
+	height: 375px;
+	width: 350px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+
+body{
+	background-color: black;
+	font-family: helvetica
+}
+
+.redbox{
+	background-color: darkred;
+	color: white;
+	display: inline-block;
+	width: 100px;
+	height: 175px;
+	position: relative;
+	top: 100px;
+	padding-bottom: 10px;
+	float: right;
+}
+
+.periwinkle{
+	background-color: #735686;
+	color: white;
+	display: inline-block;
+	height: 200px;
+	width: 150px;
+	padding: 10px;
+	float: right;
+	position:relative;
+	top: 110px;
+	text-align: right;
+	line-height: 24px;
+}
+
+.purple{
+	color: white;
+	background-color: mediumvioletred;
+	display: inline-block;
+	width: 300px;
+	height: 120px;
+	margin-top:10px;
+	font-family: sans-serif;
+	font-size: 11pt;
+	text-align: center;
+}
+
+.pink{
+	color: black;
+	background-color: #ff0073;
+	display: block;
+	width: 350px;
+	height: 200px;
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 525px;
+	left: 325px;
+	padding: 10px;
+	font-size: 15pt;
+	letter-spacing: 2px;
+	line-height: 25px
+}
+
+.right{
+	width: 400px;
+	height: auto;
+	float: right;
+	margin: 10px;
+}
+
+.left{
+	float: right;
+	display: inline-block;
+	height: 385px;
+	width: 150px;
+}
+
+.wrapper{
+	float: left;	
+}

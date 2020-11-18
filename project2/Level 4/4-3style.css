@@ -1,0 +1,36 @@
+.first{
+	padding: 5px;
+	display: inline-block;
+	font-family: arial;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+.second{
+	float: right;
+	border: 1px dotted black;
+	padding: 30px;
+	display: inline-block;
+	font-family: garamond;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: -4px;
+
+}
+
+.third{
+	margin: auto;
+	width: 60%;
+	border: 15px ridge black;
+	padding: 60px;
+	display: block;
+	font-family: helvetica;
+	font-size: 20px;
+	letter-spacing: 8px;
+	line-height: 48px;
+}
+div{
+	margin:10px;
+}
