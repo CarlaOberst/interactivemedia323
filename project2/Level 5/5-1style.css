@@ -1,11 +1,28 @@
 .bluebox{
 
-	height: 375px;
+	height: 265px;
 	width: 350px;
-	background-color: blue;
+	background-color: mediumblue;
 	color: white;
 	text-align: center;
+	font-size: 10px;
+	font-family: arial;
+	padding-top: 110px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.bluebox:hover{
+	background-color: blue;
 	font-size: 60px;
+	padding-top: 10px;
+	height: 365px;
+	line-height: 65px;
+	letter-spacing: 0px;
+	text-transform: lowercase;
+	color: mediumblue;
+
 }
 
 body{
@@ -15,28 +32,43 @@ body{
 
 .redbox{
 	background-color: darkred;
-	color: white;
+	color: darkred;
 	display: inline-block;
 	width: 100px;
 	height: 175px;
 	position: relative;
 	top: 100px;
-	padding-bottom: 10px;
+	padding: 10px;
 	float: right;
+
+}
+
+.redbox:hover{
+	background-color: crimson;
+	color: darkred;
+	font-weight: bold;
 }
 
 .periwinkle{
 	background-color: #735686;
 	color: white;
 	display: inline-block;
-	height: 200px;
+	height: 190px;
 	width: 150px;
-	padding: 10px;
+	padding: 10px 10px 10px;
 	float: right;
 	position:relative;
 	top: 110px;
 	text-align: right;
 	line-height: 24px;
+}
+
+.periwinkle:hover{
+	background-color: blueviolet;
+	color: black;
+	line-height: 14px;
+	font-size: 20px;
+	letter-spacing: 20px;
 }
 
 .purple{
@@ -46,9 +78,17 @@ body{
 	width: 300px;
 	height: 120px;
 	margin-top:10px;
-	font-family: sans-serif;
 	font-size: 11pt;
 	text-align: center;
+}
+
+.purple:hover{
+	background-color: darkorchid;
+	font-family: garamond;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: right;
 }
 
 .pink{
@@ -61,11 +101,18 @@ body{
 	float: right;
 	position: relative;
 	top: 525px;
-	left: 325px;
+	left: 295px;
 	padding: 10px;
 	font-size: 15pt;
-	letter-spacing: 2px;
-	line-height: 25px
+ 	line-height: 25px;
+}
+
+.pink:hover{
+	background-color: magenta;
+	text-align: right;
+	font-style: italic;
+	letter-spacing: -2px;
+	line-height: 20px;
 }
 
 .right{
@@ -83,5 +130,6 @@ body{
 }
 
 .wrapper{
-	float: left;	
+	float: left;
+	display: inline-block;	
 }
