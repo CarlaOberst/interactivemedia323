@@ -6,16 +6,15 @@ a{
 
 body{
 	background-image: url("stars.jpg");
-	background-image: -webkit-gradient(
-  linear, left top, left bottom, from(rgba(50,50,50,0.8)),
-  to(rgba(80,80,80,0.2)), color-stop(.5,#333333));
 }
 
 .planet{
 	border-radius: 50%;
-	border: 10px solid black;
+	border: 10px solid green;
+	background-color: green;
 	width: 100px;
 	height: 100px;
+	text-align: center;
 } 
 
 .moon{
