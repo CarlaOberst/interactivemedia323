@@ -10,9 +10,14 @@ body{
 	font-size: 20pt;
 }
 
+.one, .two, .three, .four, .five{
+	display: inline-block;
+	margin: 10px;
+}
+
 .planet{
 	border-radius: 50%;
-	border: 10px solid green;
+	border: 10px solid darkblue;
 	background-color: green;
 	width: 100px;
 	height: 100px;
@@ -27,11 +32,19 @@ body{
 	width: 50px;
 	background-color: antiquewhite;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	margin: auto;
+	margin-top: 5px;
 }
+
+.moon:hover{
+	background-color: white;
+}
+
 .links{
 	margin: auto;
 }
+
 #Octavia{
 	font-family: cambria;
 	font-size: 30pt;
@@ -52,3 +65,8 @@ body{
 	float: right;
 }
 
+.wrapper{
+	display: inline-block;
+	margin: auto;
+	width: 100%
+}
