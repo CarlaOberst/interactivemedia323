@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas.purple{
+	background-color: lavender;
+	z-index: -2;
+}
+
+.object{
+	position: absolute;
+}
+
+.bottom{
+	position: relative;
+	top: 400px;
+	left: 350px;
+
+}
+.base{
+	background-color: #585858;
+	width: 200px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	z-index: 1;
+}
+
+.lip{
+	background-color: #202020;
+	width: 200px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	top: 30px;
+}
+
+.lip-sides{
+	background-color: #202020;
+	width: 200px;
+	height: 30px;
+	top: 50px;
+
+}
+
+.shadow {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 20px 20px 0 0 darkgray;
+  top: 30px;
+  display: inline-block;
+  z-index: -1
+}
+
+.stembox{
+	left: 435px;
+	top: 150px;
+	z-index: 2;
+}
+
+.stem{
+	background-image: linear-gradient(to right, #202020, #585858);
+	height: 300px;
+	width: 30px;
+}
+
+.stem-round{
+	background-image: linear-gradient(to right, #202020, #585858);
+	width: 30px;
+	height: 20px;
+	border-radius: 50%;
+	top: 288px;
+}
+
+.extension{
+	background-image: linear-gradient(to right, #cdc276, #B5A542, black);
+	width: 20px;
+	height: 400px;
+	transform: rotate(80deg);
+	left: 450px;
+	top: -50px;
+	z-index: 3;
+}
+
+.adjustment{
+	background-color: #B5A542;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	top: 175px;
+}b

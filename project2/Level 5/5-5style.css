@@ -1,0 +1,47 @@
+.rturn{
+	-webkit-transform:rotate(-90deg);
+	padding: 90px;
+	float: right;
+}
+
+.lturn{
+	-webkit-transform: rotate(90deg);
+	padding: 80px;
+	float: left;
+}
+
+.turn{
+	animation-name: wiggle;
+	animation-duration: 90s;
+	animation-iteration-count: infinite;
+	text-align: center;
+}
+
+@keyframes wiggle{
+	0%{-webkit-transform: rotate(0deg);}
+	30%{-webkit-transform: rotate(2deg);}
+	60%{-webkit-transform: rotate(-2deg);}
+	100%{-webkit-transform: rotate(0deg);}
+}
+
+.wrapper{
+	display: inline-block;
+	width: 100%;
+}
+
+.container{
+	display: block;
+	margin: 10px;
+	font-size: 40px;
+}
+.rturn, .lturn, .turn,{
+	display: inline-block;
+	margin: 20px;
+}
+
+body{
+	background-color: lightyellow;
+	color: navy;
+	font-family: helvetica;
+	font-size: 20pt;
+}

@@ -1,0 +1,60 @@
+.container{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.box{
+	position: relative;
+	font-family: verdana;
+	display: inline-block;
+}
+
+.one{
+	font-family: lucida console;
+	font-size: 30pt;
+	letter-spacing: 20px;
+	text-align: center;
+	display: block;
+}
+
+.two{
+	font-family: BIZ UDMincho Medium;
+	font-size: 24pt;
+	margin: 20px;
+}
+
+.three{
+	font-family: cambria;
+	font-size: 14pt;
+	margin: 40px;
+	top: 150px;
+	line-height: 80px;
+	font-style: italic;
+
+}
+
+.four{
+	margin: 20px;
+	top: 270px;
+	right: 90px;
+	font-family: arial black;
+	font-size: 40px;
+	line-height: 70pt;
+
+
+}
+
+.five{
+	display: block;
+	text-align: right;
+}
+
+.six{
+	font-size: 20pt;
+	line-height: 60pt;
+	text-align: center;
+	letter-spacing: 10px;
+	display: block;
+	margin-top: 70px;
+}

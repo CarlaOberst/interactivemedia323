@@ -1,0 +1,47 @@
+.moon{
+	border-radius: 50%;
+	border: 2px solid antiquewhite;
+	height: 50px;
+	width: 50px;
+	background-color: antiquewhite;
+	text-align: center;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: georgia;
+}
+
+body{
+	background-image: linear-gradient(dodgerblue, black);
+}
+
+.planet{
+	border-radius: 50%;
+	border: 10px solid black;
+	width: 100px;
+	height: 100px;
+} 
+
+#Octavia{
+	font-family: cambria;
+	font-size: 30pt;
+	float: right;
+	color: white;
+
+}
+
+#title{
+	font-size: 100pt;
+	color: white;
+	font-family: georgia;
+	letter-spacing: 2px;
+	margin: 10px;
+}
+
+.head{
+	float: right;
+}
+

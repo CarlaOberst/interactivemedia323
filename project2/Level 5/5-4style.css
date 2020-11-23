@@ -1,0 +1,43 @@
+.woosh{
+	animation-name: move, move2;
+	animation-duration: 15s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+}
+
+@keyframes move{
+	0% {-webkit-transform: rotate(0deg); color: black;}
+	50%{-webkit-transform: rotate(10deg) translate(9px); color: violet;}
+	100%{-webkit-transform: rotate(-40deg); color: black;}
+}
+
+@keyframes move2{
+	0% {-webkit-transform: rotate(0deg); color: violet;}
+	50%{-webkit-transform: rotate(-40deg); color: black;}
+	100%{-webkit-transform: rotate(10deg) translate(9px); color: violet;}
+	
+}
+
+.trigger:hover .woosh{
+	animation-play-state: paused;
+}
+
+.trigger{
+	padding: 20px;
+	text-align: center;
+}
+
+.wrapper{
+	display: inline-block;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: arial black;
+	background-color: coral;
+	width: 100%;
+}
+
+body{
+	background-color: coral;
+}
