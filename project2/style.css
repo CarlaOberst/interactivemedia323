@@ -6,6 +6,8 @@ a{
 
 body{
 	background-image: url("stars.jpg");
+	font-family: cambria;
+	font-size: 20pt;
 }
 
 .planet{
@@ -15,6 +17,7 @@ body{
 	width: 100px;
 	height: 100px;
 	text-align: center;
+	margin: auto;
 } 
 
 .moon{
@@ -26,7 +29,9 @@ body{
 	text-align: center;
 	display: inline-block;
 }
-
+.links{
+	margin: auto;
+}
 #Octavia{
 	font-family: cambria;
 	font-size: 30pt;
