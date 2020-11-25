@@ -12,7 +12,7 @@
 
 .turn{
 	animation-name: wiggle;
-	animation-duration: 90s;
+	animation-duration: 40s;
 	animation-iteration-count: infinite;
 	text-align: center;
 }
