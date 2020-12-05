@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+	color: white;
+	font-size: 30pt;
+	font-family: times new roman;
+}
+
+a{
+	text-decoration: none;
+	font-size: 32pt;
+	text-transform: uppercase;
+	color: orange;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:visited{
+	color: red;
+}
