@@ -9,13 +9,8 @@ a{
 	text-decoration: none;
 	font-size: 32pt;
 	text-transform: uppercase;
-	color: orange;
 }
 
 a:hover{
-	color: yellow;
-}
-
-a:visited{
-	color: red;
+	color: darkorange;
 }

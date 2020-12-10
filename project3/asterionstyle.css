@@ -1,20 +1,111 @@
 body{
-	background-color: lightyellow;
+	background-color: darkturquoise;
 	font-family: georgia;
 	font-size: 30pt;
+	height: 100%;
+	margin:0;
+	width: 100%;
+}
+
+html{
+	height: 50%;
+	margin:0;
 }
 
 a{
 	text-decoration: none;
-	color: black;
-	font-family: arial;
+	color: darkgray;
 	font-weight: bold;
 }
 
 a:hover{
-	color: gray;
+	color: white;
 }
 
-a:visited{
-	color: teal;
+
+footer{
+	position: absolute;
+	max-height: 140px;
+}
+
+p{
+	display: inline-block;
+	width: 70%;
+	position: relative;
+	left: 15%;
+}
+
+.wrapper{
+	min-height: 100%;
+	margin-bottom: 140px;
+}
+
+.white{
+	background-color: white;
+	border: 3px solid firebrick;
+}
+
+.blue{
+	background-color: darkturquoise;
+	border: 3px solid blue;
+}
+
+.gray{
+	background-color: gray;
+	border: 3px solid goldenrod;
+}
+
+.gold{
+	background-color: goldenrod;
+	border: 3px solid firebrick;
+}
+
+.red{
+	background-color: firebrick;
+	border: 3px solid black;
+}
+
+.round{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	top: 7px;
+}
+
+.square{
+	height: 80px;
+	width: 100px;
+	position: relative;
+	left: 40px;
+	top: -2px;
+	border-top: 3px solid inherit;
+	border-bottom: 3px solid inherit;
+	border-left: none;
+	border-right: none;
+	display: inline-block;
+}
+
+.wbox{
+	height: 100px;
+	background-color: white;
+}
+
+.bbox{
+	height: 120px;
+	width: 100%;
+	background-color: darkturquoise;
+	padding-top: 10px;
+}
+
+.ybox{
+	height: 140px;
+	width: 100%;
+	background-color: goldenrod;
+	padding-top: 10px;
+}
+
+.last{
+	width: 43px;
 }
