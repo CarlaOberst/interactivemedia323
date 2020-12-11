@@ -2,15 +2,16 @@ body{
 	background-color: black;
 	color: white;
 	font-size: 30pt;
-	font-family: times new roman;
+	font-family: sylfaen;
 }
 
 a{
 	text-decoration: none;
 	font-size: 32pt;
 	text-transform: uppercase;
+	color: white;
 }
 
 a:hover{
-	color: darkorange;
+	color: crimson;
 }
