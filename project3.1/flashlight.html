@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="housestyle.css">
+	<style type="text/css">
+		.oily{
+			transform: rotate(-20deg);
+			position: relative;
+			left: 10%;
+			bottom: 170px;
+		}
+
+		p{padding-top: 20%;}
+
+		a.dark{
+			color: black;
+			font-size: 40pt;
+			font-weight: bold;
+		}
+
+		div{
+			display: inline-block;
+		}
+
+		.flashlight{
+			position: relative;
+			float: right;
+			bottom: 250px;
+			left: 40px;
+
+		}
+
+		#head, #handle, #light, #butt{
+			background-color: darkslategray;
+		}
+
+		#head{
+			border-top-right-radius: 50%;
+			border-bottom-right-radius: 50%;
+			height: 75px;
+			width: 75px;
+			border-right: 0;
+			box-sizing: border-box;
+		}
+
+		#handle{
+			height: 50px;
+			width: 250px;
+			position: relative;
+			top:-12px;
+			right: 20px;
+		}
+
+		#light{
+			height: 98%;
+			width: 20%;
+			position: relative;
+			right: 8%;
+			border-radius: 50%;
+			animation-name: onswitch;
+			animation-duration: 5s;
+			animation-timing-function: ease-in-out;
+			animation-delay: 0s;
+			animation-fill-mode: forwards;
+			animation-iteration-count: 1;
+			animation-play-state: running;
+		}
+
+		#butt{
+			height: 100%;
+			width: 10%;
+			float: right;
+			position: relative;
+			left: 4%;
+			border-radius: 50%;
+		}
+
+		.beam{
+			height: 0;
+			width: 0;
+			border-style: solid;
+			border-width: 200px 0 200px 1200px;
+			border-color: transparent transparent transparent black; 
+		}
+
+		#flashlightbox{
+			width: 1300px;
+			z-index: -1;
+			position: absolute;
+			animation-name: rotation;
+			animation-duration: 10s;
+			animation-timing-function: ease-in-out;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			animation-play-state: running;
+		}
+
+
+		.lightbeam{
+			animation-name: on;
+			animation-duration: 5s;
+			animation-iteration-count: 1;
+			animation-play-state: running;
+			animation-fill-mode: forwards;
+		}
+
+
+		@keyframes on{
+			0%{border-color: transparent transparent transparent black;}
+	
+			100%{border-color: transparent transparent transparent #b3ba52;}
+		}
+
+		@keyframes onswitch{
+			0%{
+				background-color: darkgray;
+				border: 2px solid darkslategray;
+			}
+
+			100%{
+				background-color: yellow;
+				border: 2px solid darkgray;
+			}
+		}
+		@keyframes rotation{
+			0%{
+				transform: rotate(0deg);
+				transform-origin: 95% 30%;
+			}
+			40%{
+				transform: rotate(10deg);
+				transform-origin: 95% 30%;
+			}
+			100%{
+				transform: rotate(-15deg);
+				transform-origin: 95% 30%;
+			}
+		}
+
+	</style>
+	<title>House of Leaves</title>
+</head>
+<body>
+		<div id="flashlightbox">
+		
+		<div class="beam lightbeam"></div>
+
+		<div class="rundamnit flashlight">
+			<div id="head"><div id="light"></div></div>
+			<div id="handle"><div id="butt"></div></div>
+		</div>
+	</div>
+	<p>
+	No matter where he points his<a class="rundamnit" href="hazards.html"> flashlight</a>, the only thing he can percieve is
+</p>
+<div class="oily"><a class="dark" href="panicked.html"> oily darkness.</a></div>
+</body>
+</html>
